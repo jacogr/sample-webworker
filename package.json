@@ -12,9 +12,9 @@
   "dependencies": {
     "@babel/core": "^7.12.9",
     "@babel/polyfill": "^7.12.1",
-    "@polkadot/api": "^2.10.1",
-    "@polkadot/util": "^4.2.1",
-    "@polkadot/util-crypto": "^4.2.1",
+    "@polkadot/api": "^3.2.3",
+    "@polkadot/util": "^5.2.3",
+    "@polkadot/util-crypto": "^5.2.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },

@@ -14,6 +14,11 @@ module.exports = {
   module: {
     rules: [
       {
+        include: /node_modules/,
+        test: /\.mjs$/,
+        type: 'javascript/auto'
+      },
+      {
         exclude: /(node_modules)/,
         test: /\.(js|jsx)$/,
         use: [
@@ -28,7 +33,7 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       Buffer: ['buffer', 'Buffer'],
-      process: 'process/browser'
+      process: 'process/browser.js'
     })
   ],
   resolve: {
